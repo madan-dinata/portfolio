@@ -26,24 +26,29 @@ window.addEventListener("click", (e) => {
 });
 
 // dark mode
-if (localStorage.getItem("preferredTheme") == "dark") {
-  setDarkMode(true);
-}
-let dark = document.getElementById("darkBtn");
+// if (localStorage.getItem("preferredTheme") == "dark") {
+//   setDarkMode(true);
+// }
+// const dark = document.getElementById("darkBtn");
 
-function setDarkMode() {
-  let nav = document.getElementsByTagName("nav")[0];
-  let footer = document.getElementsByTagName("footer")[0];
-  let card = document.querySelectorAll(".card");
-  document.body.classList.toggle("darkmode");
-  nav.classList.toggle("navbar-light");
-  nav.classList.toggle("navbar-dark");
-  nav.classList.toggle("bg-white");
-  nav.classList.toggle("bg-dark");
-  footer.classList.toggle("text-light");
-  footer.classList.toggle("bg-dark");
-  footer.classList.toggle("border-top");
-  card.forEach((x) => x.classList.toggle("bg-dark"));
-}
+// function setDarkMode() {
+//   const nav = document.getElementsByTagName("nav")[0];
+//   const footer = document.getElementsByTagName("footer")[0];
+//   const card = document.querySelectorAll(".card");
+//   const link = document.querySelectorAll(".card a");
+//   const icon = document.querySelectorAll(".bx");
+//   document.body.classList.toggle("darkmode");
+//   nav.classList.toggle("navbar-light");
+//   nav.classList.toggle("navbar-dark");
+//   nav.classList.toggle("bg-white");
+//   nav.classList.toggle("bg-dark");
+//   footer.classList.toggle("text-light");
+//   footer.classList.toggle("bg-dark");
+//   footer.classList.toggle("border-top");
+//   card.forEach((x) => x.classList.toggle("bg-dark"));
+//   link.forEach((x) => x.classList.toggle("text-light"));
+//   icon.forEach((x) => x.classList.toggle("text-light"));
+//   icon.forEach((x) => x.classList.toggle("text-dark"));
+// }
 
-dark.addEventListener("click", setDarkMode);
+// dark.addEventListener("click", setDarkMode);

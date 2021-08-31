@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+    <!-- icon -->
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -15,7 +17,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top shadow-sm">
       <div class="container">
         <a class="navbar-brand" href="#">Muhammad Ramadhan</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +36,16 @@
             </li>
           </ul>
         </div>
-        <div class="form-check form-switch">
+        <!-- <div class="form-check form-switch">
           <input class="form-check-input" type="checkbox" id="darkBtn" />
-        </div>
+        </div> -->
       </div>
     </nav>
     <!-- Akhir Navbar -->
 
     <!-- Home -->
     <section id="home">
-      <div class="jumbotron jumbotron-fluid py-4" style="margin-top: 4rem">
+      <div class="jumbotron jumbotron-fluid py-4" style="margin-top: 2rem">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
@@ -51,11 +53,18 @@
                 <p class="fw-light fs-1">
                   Hello <span class="fs-3"><!-- 👋 --></span>
                 </p>
-                <p class="fw-light fs-1 my-4 lh-sm">I'm <b>Muhammad Ramadhan</b>, a front-end web developer focused on building beautiful websites and awesome</p>
-                <p class="fs-5">
-                  Get In Touch<!-- 🤙 -->
-                  <a href="https://github.com/madan-dinata" target="_blank" class="text-decoration-none ms-3" style="background-color: rgb(139, 92, 246); color: white; padding: 5px; border-radius: 8px">madan-dinata</a>
-                </p>
+                <p class="fw-light fs-1 my-4 lh-sm">I'm <b>Muhammad Ramadhan</b>, a back-end developer focused on building well-functioning and secure websites</p>
+                <div class="sosial-media pt-3">
+                  <a href="https://github.com/madan-dinata" target="_blank">
+                    <i class="bx bx-fw bx-md bxl-github icon text-light"></i>
+                  </a>
+                  <a href="https://www.instagram.com/madann05/" target="_blank">
+                    <i class="bx bx-fw bx-md bxl-instagram-alt icon text-light"></i>
+                  </a>
+                  <a href="https://www.facebook.com/madan.dinata.39/" target="_blank">
+                    <i class="bx bx-fw bx-md bxl-facebook-square icon text-light"></i>
+                  </a>
+                </div>
               </div>
             </div>
             <div class="col-md-6">
@@ -80,11 +89,14 @@
         <div class="row">
           <div class="col-xs fs-6 lh-xs">
             <p>
-              I'm Muhammad Ramadhan, 20 years old. currently learning English, Typescript and looking a job as Front-end Web Developer. I haven't experience as a Front-end in company or start-up, but i experienced use JavaScript(React Js /
-              Next Js) for build a my website. I always learned from mistakes and eager to learn something new (Like Framework or Programming language).
+              I am Muhammad Ramadhan, 20 years old. I am a person who is very passionate about creating web programs. Starting from finding ideas to solve existing problems, creating workflows, designing layouts, creating source code, and
+              keeping my program running well.
             </p>
-            <p>I was born in Batam, Riau islands. Started learn programming language since December 17th, 2019. Actually, I knew about programming since 2017, but i'm not focused to learn programming language.</p>
-            <p>i'am really sure, i can contribute with Back-end developer in company or start-up.</p>
+            <p>
+              I enjoy working with a team because based on my experience, working with a team can speed up the work process because problems are shared and worked together. Thanks to that experience I was able to understand the workflow in
+              a team.
+            </p>
+            <p>I strongly believe, I can contribute with Back-end developer in company or start-up.</p>
           </div>
         </div>
       </div>
@@ -101,53 +113,37 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="https://www.splitshire.com/wp-content/uploads/2020/11/SplitShire-20-7139.jpg" class="card-img-top portfolio" alt="Monitor" />
+            <div class="card bg-dark">
+              <img src="images/project1.png" class="card-img-top portfolio" alt="bookshelfApps" />
               <div class="card-body">
-                <p class="card-text text-center">Monitor</p>
+                <p class="card-text text-center"><a href="https://madan-dinata.github.io/bookshelfApps/" target="_blank">bookshelfApps</a></p>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="col-md-4 mb-3">
+            <div class="card bg-dark">
+              <img src="images/img-2.png" class="card-img-top portfolio" alt="NoteBook" />
+              <div class="card-body">
+                <p class="card-text text-center"><a href="https://madan-dinata.github.io/bookshelfApps/" target="_blank">bookshelfApps</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="https://www.splitshire.com/wp-content/uploads/2020/11/SplitShire-20-7175.jpg" class="card-img-top portfolio" alt="NoteBook" />
-              <div class="card-body">
-                <p class="card-text text-center">NoteBook</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-dark">
               <img src="https://www.splitshire.com/wp-content/uploads/2018/01/SplitShire-08343.jpg" class="card-img-top portfolio" alt="Laptop" />
               <div class="card-body">
-                <p class="card-text text-center">Laptop</p>
+                <p class="card-text text-center"><a href="https://madan-dinata.github.io/bookshelfApps/" target="_blank">bookshelfApps</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-dark">
               <img src="https://www.splitshire.com/wp-content/uploads/2018/08/SplitShire-18-07916.jpg" class="card-img-top portfolio" alt="Setup Laptop" />
               <div class="card-body">
-                <p class="card-text text-center">Setup Laptop</p>
+                <p class="card-text text-center"><a href="https://madan-dinata.github.io/bookshelfApps/" target="_blank">bookshelfApps</a></p>
               </div>
             </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="https://www.splitshire.com/wp-content/uploads/2020/10/SplitShire-20-5364-web.jpg" class="card-img-top portfolio" alt="Smartphone" />
-              <div class="card-body">
-                <p class="card-text text-center">Smartphone</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="https://www.splitshire.com/wp-content/uploads/2014/09/SplitShire_IMG_7374-1800x1200.jpg" class="card-img-top portfolio" alt="Skateboard & Keyboard" />
-              <div class="card-body">
-                <p class="card-text text-center">Skateboard & Keyboard</p>
-              </div>
-            </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -163,7 +159,15 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-dark">
+              <img src="images/html.png" class="card-img-top mx-auto skills" alt="projects-1" />
+              <div class="card-body">
+                <p class="card-text text-center">HTML</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card bg-dark">
               <img src="images/css.png" class="card-img-top mx-auto skills" alt="projects-1" />
               <div class="card-body">
                 <p class="card-text text-center">CSS</p>
@@ -171,42 +175,10 @@
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
+            <div class="card bg-dark">
               <img src="images/js.png" class="card-img-top mx-auto skills" alt="projects-1" />
               <div class="card-body">
-                <p class="card-text text-center">JAVASCRIPT</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="images/sass.png" class="card-img-top mx-auto skills" alt="projects-1" />
-              <div class="card-body">
-                <p class="card-text text-center">SASS</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="images/nodejs.svg" class="card-img-top mx-auto skills" alt="projects-1" />
-              <div class="card-body">
-                <p class="card-text text-center">NODE</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="images/next.svg" class="card-img-top mx-auto skills" alt="projects-1" />
-              <div class="card-body">
-                <p class="card-text text-center">NEXT</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="images/tailwind.svg" class="card-img-top mx-auto skills" alt="projects-1" />
-              <div class="card-body">
-                <p class="card-text text-center">TAILWIND</p>
+                <p class="card-text text-center">JavaScript</p>
               </div>
             </div>
           </div>
@@ -222,7 +194,7 @@
       <div id="caption"></div>
     </div>
 
-    <footer class="mt-3 text-center p-3 border-top">&copy; Muhammad Ramadhan, 2021</footer>
+    <footer class="mt-3 text-center p-3">&copy; Muhammad Ramadhan, 2021</footer>
 
     <script src="script.js"></script>
     <!-- Bootstrap Bundle with Popper -->
